@@ -30,7 +30,7 @@ export class Gulpfile {
       formats: ['ttf', 'eot', 'woff', 'woff2', 'svg'],
     }))
     .on('glyphs', (glyphs: any) => {
-      gulp.src(resolve('src/iconfont.json'))
+      gulp.src(resolve('src/qc-icon.json'))
       .pipe(jsonTransform((data: any) => {
         const iconList: {[key: string]: string} = {}
         glyphs.forEach(({ name, unicode }: { name: string, unicode: string }) => {
