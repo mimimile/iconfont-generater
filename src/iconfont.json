@@ -1,0 +1,14 @@
+{
+  "name": "qc-icon",
+  "prefix": "qc-icon",
+  "url": "/static/qc-icon/",
+  "buildHash": "adijoawi",
+  "files": {
+    "eot": "qc-icons.eot",
+    "woff2": "qc-icons.woff2",
+    "woff": "qc-icons.woff",
+    "ttf": "qc-icons.ttf",
+    "svg": "qc-icons.svg"
+  },
+  "iconList": {}
+}

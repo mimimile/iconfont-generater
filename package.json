@@ -1,0 +1,23 @@
+{
+  "name": "icon-font-generater",
+  "version": "1.0.0",
+  "description": "Generate Icon Font by SVG",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GeekTR <geektr.chan@qingclass.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/del": "^3.0.0",
+    "@types/gulp": "^4.0.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-iconfont": "^9.0.1",
+    "gulp-json-transform": "^0.4.2",
+    "gulpclass": "^0.1.2",
+    "tslib": "^1.7.1",
+    "tslint-config-airbnb": "^5.3.0",
+    "typescript": "^2.5.2"
+  }
+}

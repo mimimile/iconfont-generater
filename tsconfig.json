@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny" : true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "es5",
+    "outDir": "lib",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "importHelpers": true,
+    "inlineSourceMap": true,
+    "listFiles": false,
+    "traceResolution": false,
+    "experimentalDecorators": true,
+    "pretty": true,
+    "lib" : [
+      "es5",
+      "es2015",
+      "dom"
+    ],
+    "types" : [
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "icon-font-generater": ["gulpclass.ts"]
+    }
+  },
+  "include": [
+    "./*.ts"
+  ],
+  "exclude": [
+    "node_modules/**"
+  ],
+  "compileOnSave": false
+}
